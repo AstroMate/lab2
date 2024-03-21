@@ -6,7 +6,7 @@ class User(base):
 
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String(50), unique=True)
-    first_name = Column(String(50))
+    first_name = Column(String(50), index = True)
     second_name = Column(String(50))
 
 
