@@ -16,8 +16,8 @@ services:
     ports:
       - "3307:3306"
     environment:
-      MYSQL_DATABASE: 'lab2python'
-      MYSQL_USER: 'my_user'
-      MYSQL_PASSWORD: 'my_password'
+      MYSQL_DATABASE: $DBNAME
+      MYSQL_USER: $LOGIN
+      MYSQL_PASSWORD: $PASSWORD
       MYSQL_ROOT_PASSWORD: 'admin'
 
