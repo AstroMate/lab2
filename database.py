@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-database = 'mysql+pymysql://root:admin@localhost:3306/lab2python'
+database = $env
 
 engine = create_engine(database)
 
